@@ -15,6 +15,21 @@ To write a Python program that filters out and returns all elements from a list 
 
 ## 🧾 Program
 Add code here
+```python
+import re
+l1 = []
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+for i in items:
+    if not re.search(r"e", i):
+        l1.append(i)
+print("Words without 'e':", l1)
+
+```
 ## Output
 
+<img width="717" height="203" alt="image" src="https://github.com/user-attachments/assets/e6ce31f1-05f3-403c-bf02-94be195e0734" />
+
+
 ## Result
+
+Thus the program executed successfully.
